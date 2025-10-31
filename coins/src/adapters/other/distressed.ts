@@ -96,6 +96,7 @@ export const contracts: { [chain: string]: { [token: string]: string } } = {
     SFUND:"0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60",
   },
   bsc: {
+    USD_T: "0x5e0a1d876557cf43c66c08c8a247bc4954eca8bd", // mint out of think air, very low liquiity
     SFUND: "0x477bc8d23c634c154061869478bce96be6045d12",
     SFUND_1: "0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60",
     BGEO: "0xc342774492b54ce5f8ac662113ed702fc1b34972",
@@ -362,6 +363,9 @@ export const contracts: { [chain: string]: { [token: string]: string } } = {
   plume_mainnet: {
     BTC: '0xCfEc8129ecf97e56F106392c04eD02BC20fC7FeC',  // dunno the source/backing of these tokens
     pUSDT: '0xCCA84731C19EB911C985E9d1892E0935C104Abce',  // dunno the source/backing of these tokens
+  },
+  cardano: {
+    SUPERIOR: 'a967738feca0f92afa0f781f2db4ec318ee6f06cb515fecf988fabfb0014df105355504552494f52'
   }
 };
 

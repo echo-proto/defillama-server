@@ -222,7 +222,7 @@ const data: Protocol[] = [
     category: "Synthetics",
     chains: ["Ethereum", "Optimism"],
     module: "synthetix/index.js",
-    twitter: "synthetix_io",
+    twitter: "synthetix",
     audit_links: ["https://docs.synthetix.io/v/v3/for-developers/smart-contract-audits/"],
     oraclesBreakdown: [
       {
@@ -573,7 +573,8 @@ const data: Protocol[] = [
     name: "Hegic",
     address: "0x584bC13c7D411c00c01A62e8019472dE68768430",
     symbol: "HEGIC",
-    url: "https://www.hegic.co/ ",
+    url: "https://www.hegic.co/?ref=0x798ff1e6d7afd28c333ee6ebe03125d30ec6ef10",
+    referralUrl: "https://www.hegic.co/?ref=0x798ff1e6d7afd28c333ee6ebe03125d30ec6ef10",
     description:
       "Hegic is an on-chain peer-to-pool options trading protocol on Arbitrum. You can trade ETH and WBTC ATM / OTM Calls / Puts & One-click Option Strategies on Hegic",
     chain: "Ethereum",
@@ -1895,15 +1896,16 @@ const data: Protocol[] = [
   },
   {
     id: "189",
-    name: "1inch Network",
+    name: "1inch",
+    previousNames: ["1inch Network"],
     address: "0x111111111117dc0aa78b770fa6a738034120c302",
     symbol: "1INCH",
     url: "https://1inch.io",
     referralUrl: "https://app.1inch.io/#/r/0x71a15ac12ee91bf7c83d08506f3a3588143898b5",
     description:
-      "The 1inch Network unites decentralized protocols whose synergy enables the most lucrative, fastest and protected operations in the DeFi space.",
+      "1inch is the DeFi ecosystem building financial freedom for everyone",
     chain: "Ethereum",
-    logo: `${baseIconsUrl}/1inch-network.jpg`,
+    logo: `${baseIconsUrl}/1inch.jpg`,
     audits: "2",
     audit_note: null,
     gecko_id: "1inch",
@@ -2319,7 +2321,7 @@ const data: Protocol[] = [
     description: "Advanced, Customized Strategies - ACryptoS's Automated Conc. Liquidity Manager (ACLM) for V3 DEXs consistently delivers strong yet sustainable yields, while Single-Token vaults automate leveraging for lending protocol users, growing more tokens with no IL risks.",
     chain: "Binance",
     logo: `${baseIconsUrl}/acryptos.jpg`,
-    audits: "6",
+    audits: "2",
     audit_note: null,
     gecko_id: "acryptos",
     cmcId: "7844",
@@ -8274,7 +8276,7 @@ The eWIT token is a custodial, wrapped version of the Witnet coin managed by the
     twitter: "BenqiFinance",
     audit_links: ["https://docs.benqi.fi/risks#audits"],
     oraclesBreakdown: [
-      { name: "Edge", type: "Primary", proof: ["https://docs.benqi.fi/resources/contracts/price-feeds"] },
+      { name: "Chaos", type: "Primary", proof: ["https://docs.benqi.fi/resources/contracts/price-feeds"] },
       { name: "Chainlink", type: "Fallback", proof: ["https://docs.benqi.fi/resources/contracts/price-feeds"] }
     ],
     forkedFromIds: ["114"],
@@ -13517,7 +13519,7 @@ The eWIT token is a custodial, wrapped version of the Witnet coin managed by the
     id: "693",
     name: "Superfluid",
     address: null,
-    symbol: "-",
+    symbol: "SUP",
     url: "https://www.superfluid.finance/home",
     description:
       "Programmable Cashflows. Handle subscriptions, salaries, rewards and any composable stream of value, with continuous settlement and per-second netting for extreme capital efficiency.",
@@ -13525,7 +13527,7 @@ The eWIT token is a custodial, wrapped version of the Witnet coin managed by the
     logo: `${baseIconsUrl}/superfluid.png`,
     audits: "2",
     audit_note: null,
-    gecko_id: null,
+    gecko_id: "superfluid",
     cmcId: null,
     category: "Payments",
     chains: ["Polygon", "xDai"],
@@ -17407,6 +17409,8 @@ The eWIT token is a custodial, wrapped version of the Witnet coin managed by the
     twitter: "lumenswap",
     listedAt: 1637392233,
     github: ["lumenswap"],
+    rugged: true,
+    deadUrl: true,
     dimensions: {
       dexs: "lumenswap"
     }
@@ -27594,7 +27598,7 @@ The eWIT token is a custodial, wrapped version of the Witnet coin managed by the
       "Oracles that pay you: Api3 first-party oracles deliver secure, transparent data while also turning data feed updates into a source of revenue for your dApp.",
     chain: "Ethereum",
     logo: `${baseIconsUrl}/api3.png`,
-    audits: "6",
+    audits: "2",
     audit_note: null,
     gecko_id: "api3",
     cmcId: "7737",
@@ -27642,7 +27646,7 @@ The eWIT token is a custodial, wrapped version of the Witnet coin managed by the
   audit_note: null,
   gecko_id: null ,
   cmcId: null ,
-  category: "Dexs", ,
+  category: "Dexs",
   chains: ["Stacks"],
   module: "cryptomate.js",
   twitter: "CryptoMate_defi",

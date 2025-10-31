@@ -1,6 +1,6 @@
 import { baseIconsUrl } from "../constants";
 import type { Protocol } from "./types";
-/*
+/* 
 {
   id: string;
   name: string;
@@ -1932,8 +1932,8 @@ const data2: Protocol[] = [
     previousNames: ["DLN"],
     address: "solana:DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5",
     symbol: "DBR",
-    url: "https://app.debridge.finance/r/32425",
-    referralUrl: "https://app.debridge.finance/r/32425",
+    url: "https://app.debridge.com/r/32425",
+    referralUrl: "https://app.debridge.com/r/32425",
     description:
       "deBridge is a cross-chain interoperability and liquidity transfer protocol that allows the decentralized transfer of arbitrary data and assets between various blockchains",
     chain: "Ethereum",
@@ -3789,6 +3789,9 @@ const data2: Protocol[] = [
     audit_links: ["https://github.com/certusone/wormhole/blob/dev.v2/SECURITY.md"],
     listedAt: 1647148275,
     github: ["wormhole-foundation"],
+    dimensions: {
+      fees: "wormhole",
+    },
   },
   // {
   //   id: "1542",
@@ -21396,14 +21399,15 @@ const data2: Protocol[] = [
   */
   {
     id: "2289",
-    name: "Cetus AMM",
+    name: "Cetus CLMM",
+    previousNames: ["Cetus AMM"],
     address: "sui:0x6864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS",
     symbol: "CETUS",
     url: "https://www.cetus.zone",
     description:
       "Cetus is a pioneer DEX and concentrated liquidity protocol focusing on Move-based ecosystems like Aptos and Sui. It works as a crucial part of the ecosystem infrastructure to satisfy the comprehensive needs of traders, LPs, upper applications and an increasing DeFi population.",
     chain: "Aptos",
-    logo: `${baseIconsUrl}/cetus-amm.png`,
+    logo: `${baseIconsUrl}/cetus-clmm.png`,
     audits: "0",
     audit_note: null,
     gecko_id: null,
